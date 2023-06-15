@@ -138,6 +138,7 @@ class BMA220:
     .. code-block:: python
 
     """
+
     _device_id = RegisterStruct(_REG_WHOAMI, "B")
 
     _acc_range = CBits(2, _ACC_RANGE, 0)

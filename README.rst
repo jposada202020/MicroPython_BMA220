@@ -88,4 +88,3 @@ Take a look at the examples directory
 Documentation
 =============
 API documentation for this library can be found on `Read the Docs <https://micropython-bma220.readthedocs.io/en/latest/>`_.
-
