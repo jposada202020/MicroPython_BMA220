@@ -9,6 +9,7 @@ Introduction
     :alt: Documentation Status
     
 .. image:: https://img.shields.io/badge/micropython-Ok-green.svg
+    :target:
     :alt: micropython
 
 .. image:: https://img.shields.io/pypi/v/micropython-bma220.svg
