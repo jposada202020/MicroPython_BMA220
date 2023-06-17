@@ -1,13 +1,13 @@
 Introduction
 ============
 
+
 .. image:: https://img.shields.io/badge/micropython-Ok-green.svg
     :alt: micropython
 
 .. image:: https://readthedocs.org/projects/micropython-bma220/badge/?version=latest
     :target: https://micropython-bma220.readthedocs.io/en/latest/
     :alt: Documentation Status
-
 
 .. image:: https://img.shields.io/pypi/v/micropython-bma220.svg
     :alt: latest version on PyPI
@@ -16,6 +16,10 @@ Introduction
 .. image:: https://static.pepy.tech/personalized-badge/micropython-bma220?period=total&units=international_system&left_color=grey&right_color=blue&left_text=Pypi%20Downloads
     :alt: Total PyPI downloads
     :target: https://pepy.tech/project/micropython-bma220
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/psf/black
+    :alt: Code Style: Black
 
 MicroPython Driver for the Bosch BMA220 Accelerometer
 
