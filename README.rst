@@ -2,7 +2,7 @@ Introduction
 ============
 
 
-.. image:: https://img.shields.io/badge/micropython-Ok-green.svg
+.. image:: https://img.shields.io/badge/micropython-Ok-purple.svg
     :target: https://micropython.org
     :alt: micropython
 
