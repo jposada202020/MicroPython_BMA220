@@ -2,12 +2,14 @@ Introduction
 ============
 
 
-.. image:: https://img.shields.io/badge/micropython-Ok-green.svg
-    :alt: micropython
+
 
 .. image:: https://readthedocs.org/projects/micropython-bma220/badge/?version=latest
     :target: https://micropython-bma220.readthedocs.io/en/latest/
     :alt: Documentation Status
+    
+.. image:: https://img.shields.io/badge/micropython-Ok-green.svg
+    :alt: micropython
 
 .. image:: https://img.shields.io/pypi/v/micropython-bma220.svg
     :alt: latest version on PyPI
