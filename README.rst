@@ -17,10 +17,6 @@ Introduction
     :alt: Total PyPI downloads
     :target: https://pepy.tech/project/micropython-bma220
 
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-    :target: https://github.com/psf/black
-    :alt: Code Style: Black
-
 MicroPython Driver for the Bosch BMA220 Accelerometer
 
 
