@@ -9,7 +9,7 @@ Introduction
     :alt: Documentation Status
     
 .. image:: https://img.shields.io/badge/micropython-Ok-green.svg
-    :target:
+    :target: https://readthedocs.org/projects/micropython-bma220/badge/?version=latest
     :alt: micropython
 
 .. image:: https://img.shields.io/pypi/v/micropython-bma220.svg
