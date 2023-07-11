@@ -86,7 +86,7 @@ class BMA220_ORIENTATION(BMA220):
     _orientation_enabled = CBits(1, _CONF, 6)
     _orientation_exchange = CBits(1, _ORIENT_EX, 7)
 
-    def __init__(self, i2c_bus):
+    def __init__(self, i2c_bus) -> None:
         super().__init__(i2c_bus)
         self._orientation_enabled = True
 

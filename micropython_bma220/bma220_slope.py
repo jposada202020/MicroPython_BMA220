@@ -88,7 +88,7 @@ class BMA220_SLOPE(BMA220):
     _slope_y_first = CBits(1, _SLOPE_INFO2, 2)
     _slope_x_first = CBits(1, _SLOPE_INFO2, 3)
 
-    def __init__(self, i2c_bus):
+    def __init__(self, i2c_bus) -> None:
         super().__init__(i2c_bus)
 
     @property

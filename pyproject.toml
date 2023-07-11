@@ -25,7 +25,6 @@ keywords = [
     "acceleration",
     "driver",
     "bosch",
-    "bma220",
     "accelerometer",
     "gravity",
     "slope",

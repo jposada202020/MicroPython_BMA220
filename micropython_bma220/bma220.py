@@ -406,7 +406,7 @@ class BMA220:
           the interrupt condition no longer applies.
 
         The interrupt output can be programmed by :attr:`latched_mode` to be either
-        unlatched (‘000’) or latched permanently (‘111’) or have different latching times.
+        unlatched ('000') or latched permanently ('111') or have different latching times.
 
         +-----------------------------------+--------------------------------+
         | Mode                              | Value                          |
@@ -450,7 +450,7 @@ class BMA220:
     def acceleration(self) -> Tuple[float, float, float]:
         """
         Acceleration
-        :return: acceleration
+        :return: acceleration x, y, z in m/s²
         """
         bufx, bufy, bufz = self._acceleration
 

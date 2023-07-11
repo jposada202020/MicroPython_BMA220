@@ -49,7 +49,7 @@ class BMA220_LOWG_DETECTION(BMA220):
     _lowg_threshold = CBits(4, _LG_CONF3, 3)
     _lowg_hysteresis = CBits(2, _LG_CONF, 6)
 
-    def __init__(self, i2c_bus):
+    def __init__(self, i2c_bus) -> None:
         super().__init__(i2c_bus)
 
     @property
