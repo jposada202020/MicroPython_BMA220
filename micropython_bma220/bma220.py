@@ -107,6 +107,8 @@ latched_mode_values = (
     LATCHED,
 )
 
+_ACC_CONVERSION = const(9.80665)
+
 
 class BMA220:
     """Driver for the BMA220 Sensor connected over I2C.
@@ -454,7 +456,7 @@ class BMA220:
         """
         bufx, bufy, bufz = self._acceleration
 
-        factor = acc_range_factor[self._acc_range_mem]
+        factor = acc_range_factor[self._acc_range_mem] * _ACC_CONVERSION
 
         return (
             self._twos_comp(bufx >> 2, 6) / factor,
